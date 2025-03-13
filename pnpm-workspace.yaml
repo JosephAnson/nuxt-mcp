@@ -20,6 +20,7 @@ catalogs:
     vite: ^6.2.1
     vue-tsc: ^2.2.8
   nuxt:
+    '@nuxt/content': ^3.3.0
     '@nuxt/devtools': ^2.3.0
     '@nuxt/eslint-config': ^1.2.0
     '@nuxt/kit': ^3.16.0
@@ -33,12 +34,14 @@ catalogs:
     '@modelcontextprotocol/sdk': ^1.7.0
     ansis: ^3.17.0
     async-cache-dedupe: ^2.2.0
+    c12: ^3.0.2
     citty: ^0.1.6
     debug: ^4.4.0
     h3: ^1.15.1
     pathe: ^2.0.3
     unimport: ^4.1.2
     zod: ^3.24.2
+    zod-to-json-schema: ^3.24.3
   testing:
     vitest: ^3.0.8
     vitest-package-exports: ^0.1.1
@@ -52,3 +55,5 @@ catalogs:
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
+  - '@parcel/watcher'
+  - better-sqlite3

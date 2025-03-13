@@ -3,6 +3,7 @@
   "type": "module",
   "private": true,
   "dependencies": {
+    "@nuxt/content": "catalog:nuxt",
     "nuxt": "catalog:nuxt"
   }
 }

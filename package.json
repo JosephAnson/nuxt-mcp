@@ -20,8 +20,10 @@
     "@antfu/utils": "catalog:utils",
     "@modelcontextprotocol/inspector": "catalog:cli",
     "@modelcontextprotocol/sdk": "catalog:prod",
+    "@nuxt/content": "catalog:nuxt",
     "@types/node": "catalog:types",
     "bumpp": "catalog:cli",
+    "c12": "catalog:prod",
     "eslint": "catalog:cli",
     "h3": "catalog:prod",
     "lint-staged": "catalog:cli",
@@ -35,7 +37,8 @@
     "vitest": "catalog:testing",
     "vitest-package-exports": "catalog:testing",
     "yaml": "catalog:testing",
-    "zod": "catalog:prod"
+    "zod": "catalog:prod",
+    "zod-to-json-schema": "catalog:prod"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm i --frozen-lockfile --ignore-scripts --offline && npx lint-staged"
